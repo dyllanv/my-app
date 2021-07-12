@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import NavBar from "./components/navbar";
+import About from "./components/about";
+import Education from "./components/education";
+import Experience from "./components/experience";
+import Volunteer from "./components/volunteer";
+import Skills from "./components/skills";
+import Projects from "./components/projects";
+import Banner from "./components/banner";
+import SocialIcons from "./components/social_icons";
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter as Router} from "react-router-dom";
+/* <div class="top">
+      <Banner></Banner>
+      <PacBoard></PacBoard>
+    </div>
+*/
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <NavBar></NavBar>
+        
+        <Banner></Banner>
+        
+        <About></About>
+        <Education></Education>
+        <Experience></Experience>
+        <Volunteer></Volunteer>
+        <Skills></Skills>
+        <Projects></Projects>
+        <SocialIcons></SocialIcons>
+      </Router>
     </div>
   );
 }
