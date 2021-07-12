@@ -107,7 +107,7 @@ const Projects = () => {
                                 update, and delete 'boats' and 'loads'. Read the API doc on GitHub for more information. A test environment and test collection
                                 were created using Postman, which are also provided in the GitHub repository.                      
                             </p>
-                            <p>Python, Flask, OAuth 2.0, NoSQL, Google Cloud Platform (Datastore), Postman</p>
+                            <p>Python, Flask, OAuth 2.0, NoSQL, Google Cloud Platform, Postman</p>
                             <div class="buttons">
                                 <a href="https://cs493-portfolio-314720.wl.r.appspot.com/">Website</a>
                                 <a href="https://github.com/dyllanv/RESTful-API-GCP">GitHub</a>
@@ -129,7 +129,7 @@ const Projects = () => {
                                 with a photo and other information (an input integer and the device's location). The app (assignment) is designed for a 
                                 cafe/bakery, to monitor how many pastries or other items are wasted at the end of the shift/night.                     
                             </p>
-                            <p>Dart, Flutter, NoSQL, Google Cloud Platform (Firestore, Firebase)</p>
+                            <p>Dart, Flutter, NoSQL, Google Cloud Platform</p>
                             <div class="buttons">
                                 <button class="btn" onClick={() => setModalShow(true)}>Demo</button>
                                 <a href="https://github.com/dyllanv/Wastegram">GitHub</a>
@@ -155,7 +155,7 @@ const Projects = () => {
                                 understanding of how to design, implement, and use a relational database. This project was cretaed in summer 2020, but was
                                 recently adapted to use Google Cloud SQL as the database host. 
                             </p>
-                            <p>Python, Flask, MySQL, HTML, Google Cloud SQL</p>
+                            <p>Python, Flask, MySQL, HTML, Google Cloud Platform</p>
                             <div class="buttons">
                                 <a href="https://hospitaldb-319102.uw.r.appspot.com/">Website</a>
                                 <a href="https://github.com/dyllanv/HospitalDatabase">GitHub</a>

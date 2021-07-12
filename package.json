@@ -1,4 +1,5 @@
 {
+  "homepage": "http://dyllanvangemert.com",
   "name": "my-app",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
@@ -16,9 +17,34 @@
     "react-scroll": "^1.8.2",
     "web-vitals": "^1.1.2"
   },
-  "devDependencies": {},
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -29,6 +55,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dyllan/my-app/issues"
-  },
-  "homepage": "https://github.com/dyllan/my-app#readme"
+  }
 }
