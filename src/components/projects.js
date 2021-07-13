@@ -1,6 +1,7 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal'
 
+
 function ModalPopup(props) {
     return (
       <Modal
@@ -56,12 +57,13 @@ function ModalPopup2(props) {
         </Modal.Footer>
       </Modal>
     );
-  }
+}
 
 
 const Projects = () => {
     const [modalShow, setModalShow] = React.useState(false);
     const [modal2Show, setModal2Show] = React.useState(false);
+    const [modal3Show, setModal3Show] = React.useState(false);
     return (
         <div>
             <span id="projects"></span>

@@ -20,9 +20,7 @@ function App() {
     <div className="App">
       <Router>
         <NavBar></NavBar>
-        
         <Banner></Banner>
-        
         <About></About>
         <Education></Education>
         <Experience></Experience>
