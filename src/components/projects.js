@@ -152,12 +152,11 @@ const Projects = () => {
                                 and patients, to be used by the hospital staff. This program allows doctors and nurses to easily access which patients 
                                 they are assigned (or find other patients's providers when needed). It also allows them to assign patients new providers
                                 at shift change. While this project could benefit greatly from a better UX/UI design, the purpose was to gain a better 
-                                understanding of how to design, implement, and use a relational database. This project was cretaed in summer 2020, but was
-                                recently adapted to use Google Cloud SQL as the database host. 
+                                understanding of how to design, implement, and use a relational database. This project was cretaed in summer 2020, but 
+                                is no longer live.
                             </p>
-                            <p>Python, Flask, MySQL, HTML, Google Cloud Platform</p>
+                            <p>Python, Flask, MySQL, HTML</p>
                             <div class="buttons">
-                                <a href="https://hospitaldb-319102.uw.r.appspot.com/">Website</a>
                                 <a href="https://github.com/dyllanv/HospitalDatabase">GitHub</a>
                             </div>
                         </div>
