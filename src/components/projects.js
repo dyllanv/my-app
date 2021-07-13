@@ -16,7 +16,7 @@ function ModalPopup(props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src="https://elasticbeanstalk-us-west-2-181021098475.s3.us-west-2.amazonaws.com/wastegram.gif"></img>
+          <img src="https://i.ibb.co/1MB65Q5/wastegram.gif"></img>
         </Modal.Body>
         <Modal.Footer>
           <button class="btn" onClick={props.onHide}>Close</button>
@@ -73,7 +73,7 @@ const Projects = () => {
                     <div class="project">
                         <div class="pic">
                             <span class="helper"></span>
-                            <img src="https://elasticbeanstalk-us-west-2-181021098475.s3.us-west-2.amazonaws.com/Capture.PNG"></img>
+                            <img src="https://i.ibb.co/ck6TY8c/Capture.png"></img>
                         </div>
                         <div class="description">
                             <h3>Pet Adoption Website</h3>
@@ -96,7 +96,7 @@ const Projects = () => {
                     <div class="project">
                         <div class="pic">
                             <span class="helper"></span>
-                            <img src="https://elasticbeanstalk-us-west-2-181021098475.s3.us-west-2.amazonaws.com/boats.PNG"></img>
+                            <img src="https://i.ibb.co/CBsNJHm/boats.png"></img>
                         </div>
                         <div class="description">
                             <h3>RESTful API: Shipping Management</h3>
@@ -121,7 +121,7 @@ const Projects = () => {
                     <div class="project">
                         <div class="pic">
                             <span class="helper"></span>
-                            <img src="https://elasticbeanstalk-us-west-2-181021098475.s3.us-west-2.amazonaws.com/wastegram.PNG"></img>
+                            <img src="https://i.ibb.co/x1kQpBv/wastegram.png"></img>
                         </div>
                         <div class="description">
                             <h3>Wastegram App</h3>
@@ -144,7 +144,33 @@ const Projects = () => {
                     <div class="project">
                         <div class="pic">
                             <span class="helper"></span>
-                            <img src="https://elasticbeanstalk-us-west-2-181021098475.s3.us-west-2.amazonaws.com/hospital.PNG"></img>
+                            <img src="https://i.ibb.co/qYs5WmT/sudoku.png"></img>
+                        </div>
+                        <div class="description">
+                            <h3>Sudoku Solution Checker</h3>
+                            <p>
+                                For this project in my algorithms course, I created a program that determines if a given sudoku solution is valid (it does
+                                not solve incomplete sudoku puzzles). This is a known NP-Complete (nondeterministic polynomial-time complete) problem, which
+                                essentially means it can be done in polynomial time, and every other NP problem can be reduced to this problem in polynomial time.
+                                <br></br>
+                                More information on NP-Completeness can be found here: <a href="https://en.wikipedia.org/wiki/NP-completeness">NP-Completeness</a>
+                                <br></br>
+                                The code for this program and a more in-depth analysis of the problem can be found by following the links below.
+                            </p>
+                            <p>Python, Algorithms</p>
+                            <div class="buttons">
+                                <a href="https://github.com/dyllanv/SudokuChecker/blob/master/sudoku.py">Code</a>
+                                <a href="https://github.com/dyllanv/SudokuChecker/blob/master/hw6.pdf">Algorithm Analysis</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="resume">
+                    <div class="project">
+                        <div class="pic">
+                            <span class="helper"></span>
+                            <img src="https://i.ibb.co/d586TJY/hospital.png"></img>
                         </div>
                         <div class="description">
                             <h3>Hospital Management System</h3>
@@ -174,7 +200,8 @@ const Projects = () => {
                             <h3>Xiangqi Board Game</h3>
                             <p>
                                 This was one of my earlier projects (winter 2020), but was really fun to make. Xiangqi, also know as Chinese Chess, is a board game much 
-                                like, well, chess. The description and rules of the game can be found here: <a href="https://en.wikipedia.org/wiki/Xiangqi">https://en.wikipedia.org/wiki/Xiangqi</a> 
+                                like, well, chess. 
+                                The description and rules of the game can be found here: <a href="https://en.wikipedia.org/wiki/Xiangqi">Xiangqi Board Game</a> 
                                 <br></br>
                                 The program only includes the game logic and game flow, with no real frontend, but I did create a makeshift board to be displayed
                                 after each turn is made. This was written in Python, and aided in my understanding of object-oriented design.
