@@ -172,7 +172,8 @@ const Projects = () => {
                             <h3>Xiangqi Board Game</h3>
                             <p>
                                 This was one of my earlier projects (winter 2020), but was really fun to make. Xiangqi, also know as Chinese Chess, is a board game much 
-                                like, well, chess. The description and rules of the game can be found here: <a href="https://en.wikipedia.org/wiki/Xiangqi"></a> 
+                                like, well, chess. The description and rules of the game can be found here: <a href="https://en.wikipedia.org/wiki/Xiangqi">https://en.wikipedia.org/wiki/Xiangqi</a> 
+                                <br></br>
                                 The program only includes the game logic and game flow, with no real frontend, but I did create a makeshift board to be displayed
                                 after each turn is made. This was written in Python, and aided in my understanding of object-oriented design.
                             </p>
