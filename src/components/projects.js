@@ -84,8 +84,8 @@ const Projects = () => {
                             </p>
                             <p>JavaScript, NodeJS, Express, MySQL, AWS, HTML, CSS, React</p>
                             <div class="buttons">
-                                <a href="http://confused-children.surge.sh/userdash">Website</a>
                                 <a href="https://github.com/dyllanv/AdoptPets-WebApp">GitHub</a>
+                                <a href="http://confused-children.surge.sh/userdash">Website</a>
                             </div>
                         </div>
                     </div>
@@ -109,8 +109,8 @@ const Projects = () => {
                             </p>
                             <p>Python, Flask, OAuth 2.0, NoSQL, Google Cloud Platform, Postman</p>
                             <div class="buttons">
-                                <a href="https://cs493-portfolio-314720.wl.r.appspot.com/">Website</a>
                                 <a href="https://github.com/dyllanv/RESTful-API-GCP">GitHub</a>
+                                <a href="https://cs493-portfolio-314720.wl.r.appspot.com/">Website</a>
                             </div>
                         </div>
                     </div>
@@ -131,8 +131,8 @@ const Projects = () => {
                             </p>
                             <p>Dart, Flutter, NoSQL, Google Cloud Platform</p>
                             <div class="buttons">
-                                <button class="btn" onClick={() => setModalShow(true)}>Demo</button>
                                 <a href="https://github.com/dyllanv/Wastegram">GitHub</a>
+                                <button class="btn" onClick={() => setModalShow(true)}>Demo</button>
                             </div>
                             
                         </div>
@@ -178,8 +178,8 @@ const Projects = () => {
                             </p>
                             <p>Python, Object-Oriented Design</p>
                             <div class="buttons">
-                                <button class="btn" onClick={() => setModal2Show(true)}>Story Time!</button>
                                 <a href="https://github.com/dyllanv/XiangqiGame">GitHub</a>
+                                <button class="btn" onClick={() => setModal2Show(true)}>Story Time!</button>
                             </div>
                             
                         </div>
