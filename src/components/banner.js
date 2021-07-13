@@ -30,7 +30,7 @@ const Banner = () => {
     return (
         <div class="banner">
             <span id="home"></span>
-            <section class="container">
+            <div class="container">
                 
                 <div class="right-letters">
                     <div class="prism-slider" style={cycle1}>
@@ -99,9 +99,9 @@ const Banner = () => {
                         <div class="side c c2"></div>
                     </div>
                 </div>
-            </section>
+            </div>
 
-            <section class="container">
+            <div class="container">
                 
                 <div class="right-letters">
                     <div class="prism-slider" style={cycle2}>
@@ -170,8 +170,8 @@ const Banner = () => {
                         <div class="side c c1"></div>
                     </div>
                 </div>
-            </section>
-            <section class="container">
+            </div>
+            <div class="container">
                 <div class="right-letters">
                     <div class="prism-slider" style={cycle1}>
                         <div class="side a c3">V</div>
@@ -239,7 +239,7 @@ const Banner = () => {
                         <div class="side c c1">y</div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     )
 }
