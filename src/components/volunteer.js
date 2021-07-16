@@ -22,7 +22,7 @@ const Volunteer = () => {
                     <div class="left-align-resume">
                             <h3>Bloodworks Northwest</h3>
                             <p>
-                                Volunteered at the blood donation center, Bloodwoorks Northwest (~100 hours). Assisted with clerical duties and monitoring donors.
+                                Volunteered at the blood donation center, Bloodworks Northwest (~100 hours). Assisted with clerical duties and monitoring donors.
                             </p>
                     </div>
                     <div class="right-align-date">June 2015 - August 2015</div>
