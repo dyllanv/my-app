@@ -29,7 +29,7 @@ const Volunteer = () => {
                 </div>
                 <div class="resume">
                     <div class="left-align-resume">
-                            <h3>Phsyical Therapy Clinics (multiple)</h3>
+                            <h3>Physical Therapy Clinics (multiple)</h3>
                             <p>
                                 Volunteered at 7 different physical therapy clinics (~400 hours). Assisted therapists with patient treatment (exercises, transfers, etc).
                             </p>
