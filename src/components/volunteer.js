@@ -34,7 +34,7 @@ const Volunteer = () => {
                                 Volunteered at 7 different physical therapy clinics (~400 hours). Assisted therapists with patient treatment (exercises, transfers, etc).
                             </p>
                     </div>
-                    <div class="right-align-date">June 2015 - August 2015</div>
+                    <div class="right-align-date">June 2012 - April 2014</div>
                 </div>
                 </section>
             </div>
