@@ -127,8 +127,8 @@ const Projects = () => {
                             <h3>Wastegram App</h3>
                             <p>
                                 This cross-platform mobile app was made using the Dart programming language with Google's Flutter SDK. Data is stored with
-                                Google's Firestore, whille images are stored with Firebase. It functions as an Instagram-like app, where a user creates posts 
-                                with a photo and other information (an input integer and the device's location). The app (assignment) is designed for a 
+                                Google's Firestore, while images are stored with Firebase. It functions as an Instagram-like app, where a user creates posts 
+                                with a photo and other information (an input integer and the device's location). The app is designed for a 
                                 cafe/bakery, to monitor how many pastries or other items are wasted at the end of the shift/night.                     
                             </p>
                             <p>Dart, Flutter, NoSQL, Google Cloud Platform</p>
@@ -175,7 +175,7 @@ const Projects = () => {
                         <div class="description">
                             <h3>Hospital Management System</h3>
                             <p>
-                                This project was built using Python, the Flask framework, and a MySQL database. The frontend was built with pure html
+                                This project was built using Python, the Flask framework, and a MySQL database. The frontend was built with pure HTML
                                 with minimal CSS. I chose to build a hospital management system as a tool to help keep track of certain hospital staff
                                 and patients, to be used by the hospital staff. This program allows doctors and nurses to easily access which patients 
                                 they are assigned (or find other patients's providers when needed). It also allows them to assign patients new providers
