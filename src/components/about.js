@@ -6,13 +6,14 @@ const About = () => {
             <span class="anchor" id="about"></span>
             <section data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="resume">
-                            <div class="left-align-resume">
+                        <div class="left-align-resume">
                             <h1>Dyllan E. Vangemert</h1>
                             <h2>Full-Stack Software Engineer</h2>
                             <div>Woodinville, WA</div>
                             <div>(206) 818-3141</div>
                             <a class="link" href="mailto:dyllanvangemert@gmail.com">dyllanvangemert@gmail.com</a>
-                            <div class="padding"></div>
+                            <br></br>
+                            <br></br>
                             <p>
                                 My name is Dyllan, and I really enjoy designing and developing software. 
                                 I have a preference for backend development, but I'm having fun learning 
