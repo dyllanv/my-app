@@ -17,7 +17,7 @@ const About = () => {
                             <p>
                                 Welcome to my page! My name is Dyllan, and I'm a software engineer. I recently graduated
                                 from Oregon State University with my BS in Computer Science. More recently, I started
-                                working as a Back-End Developer with Sporcle. I generally prefer back-end developement, 
+                                working as a Back-End Developer with Sporcle. I generally prefer back-end development, 
                                 but I also enjoy mobile development. I pride myself on being a team player and am always 
                                 striving to improve my skill set. Please feel free to reach out if you have any questions.
                             </p>                            
