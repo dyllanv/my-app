@@ -35,7 +35,7 @@ const Skills = () => {
                         </ul>
                     </div>
                     <div class="cell">
-                        <h4 class="skill">BACKEND</h4>
+                        <h4 class="skill">BACK-END</h4>
                         <ul>
                             <li>RESTful API Design</li>
                             <li>NodeJS</li>
@@ -47,7 +47,7 @@ const Skills = () => {
                         </ul>
                     </div>
                     <div class="cell">
-                        <h4 class="skill">FRONTEND and MOBILE</h4>
+                        <h4 class="skill">FRONT-END and MOBILE</h4>
                         <ul>
                             <li>React</li>
                             <li>DOM</li>

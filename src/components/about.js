@@ -19,7 +19,7 @@ const About = () => {
                                 from Oregon State University with my BS in Computer Science. More recently, I started
                                 working as a Back-End Developer with Sporcle. I generally prefer back-end developement, 
                                 but I also enjoy mobile development. I pride myself on being a team player and am always 
-                                striving to improve my skillset. Please feel free to reach out if you have any questions.
+                                striving to improve my skill-set. Please feel free to reach out if you have any questions.
                             </p>                            
                         </div> 
                         <div class="right-align-date">November 1992 - Present</div>
