@@ -52,7 +52,7 @@ const Skills = () => {
                             <li>React</li>
                             <li>DOM</li>
                             <li>AJAX</li>
-                            <li>Flutter SDK</li>
+                            <li>Flutter SDK (Cross-platform)</li>
                         </ul>
                     </div>
                     <div class="cell">

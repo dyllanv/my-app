@@ -8,6 +8,17 @@ const Experience = () => {
                 <h1 class="heading">Experience</h1>
                 <div class="resume">
                     <div class="left-align-resume">
+                        <h3>Back-End Developer</h3>
+                        <h4>Sporcle</h4>
+                        <p>
+                            I just started this back-end development position with Sporcle. I'm excited to be getting my first professional experience as a software developer, 
+                            and will update this later once I spend some more time in the role.
+                        </p>
+                    </div>
+                    <div class="right-align-date">August 2021 - Present</div>
+                </div>
+                <div class="resume">
+                    <div class="left-align-resume">
                         <h3>Undergraduate Learning Assistant (Computer Science)</h3>
                         <h4>Oregon State University</h4>
                         <p>

@@ -10,11 +10,7 @@ import SocialIcons from "./components/social_icons";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router} from "react-router-dom";
-/* <div class="top">
-      <Banner></Banner>
-      <PacBoard></PacBoard>
-    </div>
-*/
+
 function App() {
   return (
     <div className="App">
