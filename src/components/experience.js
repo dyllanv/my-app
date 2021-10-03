@@ -11,8 +11,8 @@ const Experience = () => {
                         <h3>Back-End Developer</h3>
                         <h4>Sporcle</h4>
                         <p>
-                            I just started this back-end development position with Sporcle. I'm excited to be getting my first professional experience as a software developer, 
-                            and will update this later once I spend some more time in the role.
+                            Back-end web development on the Salesforce team, using Apex, Visualforce, and SOQL to automate processes for Sporcle's recruiting team, hosts, and customers.
+                            Experience with object-oriented design, data management, and unit testing.
                         </p>
                     </div>
                     <div class="right-align-date">August 2021 - Present</div>

@@ -42,15 +42,15 @@ function ModalPopup2(props) {
           <p>
                 I had two of my biggest programming takeaways come from this project: Plan out your project before coding, 
                 and classes are your friend (*Object-Oriented Programming has entered the chat*). Having made a couple tic-tac-toe like games prior 
-                to this, I made the project nearly entirely within arrays and with indexing. It wasn't until well after the 20-30 hour mark of coding 
-                that I realized I hadn't fully thought through how I would account for generals being in check, checkmate, or stalemate. Ironically, this left me
-                in a stalemate. While I could have brute-forced a wildly inefficient solution, I realized that keeping track of the possible moves for 
-                each piece would be much simpler, but would require restructuring my entire project with a more efficient use of classes. Each time a piece
-                moves, update its possible moves (per the piece's movement rules, even if the move would be invalid for other reasons). After said move,
-                check all live pieces and either confirm it does not leave a general in check or that there is a possible move that can be made (not
-                a stalemate). When checking for 'checkmate', this was also useful in making sure whether or not there were moves that could protect the general. 
+                to this, I made the project nearly entirely within arrays and with indexing, using strings to identify pieces ('BG' == black general). 
+                It wasn't until well after the 20-30 hour mark of coding that I realized I hadn't fully thought through how I would account for generals 
+                being in check, checkmate, or stalemate. Ironically, this left me in a stalemate. While I could have brute-forced a wildly inefficient 
+                solution, I realized that keeping track of the possible moves for each piece would be much simpler, but would require restructuring my 
+                entire project with a more efficient use of classes. Each time a piece moves, update its possible moves (per the piece's movement rules). 
+                After said move, check all live pieces and either confirm it does not leave a general in check or that there is a possible move that can 
+                be made (not a stalemate). When checking for 'checkmate', this was also useful in checking if there were moves that could protect the general. 
           </p>
-          <p>Moral of the story: Plan ahead, and well designed classes are great for tracking very useful information.</p>
+          <p>Moral of the story: Plan ahead, and well designed classes are great for tracking useful information.</p>
         </Modal.Body>
         <Modal.Footer>
           <button class="btn" onClick={props.onHide}>Close</button>
@@ -63,7 +63,7 @@ function ModalPopup2(props) {
 const Projects = () => {
     const [modalShow, setModalShow] = React.useState(false);
     const [modal2Show, setModal2Show] = React.useState(false);
-    const [modal3Show, setModal3Show] = React.useState(false);
+    //const [modal3Show, setModal3Show] = React.useState(false);
     return (
         <div>
             <span id="projects"></span>
